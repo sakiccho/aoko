@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D658AE9F1F3D8DB400C362FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AE9E1F3D8DB400C362FB /* AppDelegate.swift */; };
+		D658AEA11F3D8DB400C362FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEA01F3D8DB400C362FB /* ViewController.swift */; };
+		D658AEA31F3D8DB400C362FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D658AEA21F3D8DB400C362FB /* Assets.xcassets */; };
+		D658AEA61F3D8DB400C362FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D658AEA41F3D8DB400C362FB /* Main.storyboard */; };
+		D658AEB11F3D8DB400C362FB /* aokoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEB01F3D8DB400C362FB /* aokoTests.swift */; };
+		D658AEBC1F3D8DB400C362FB /* aokoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEBB1F3D8DB400C362FB /* aokoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D658AEAD1F3D8DB400C362FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D658AE931F3D8DB400C362FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D658AE9A1F3D8DB400C362FB;
+			remoteInfo = aoko;
+		};
+		D658AEB81F3D8DB400C362FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D658AE931F3D8DB400C362FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D658AE9A1F3D8DB400C362FB;
+			remoteInfo = aoko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D658AE9B1F3D8DB400C362FB /* aoko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D658AE9E1F3D8DB400C362FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D658AEA01F3D8DB400C362FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D658AEA21F3D8DB400C362FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D658AEA51F3D8DB400C362FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D658AEA71F3D8DB400C362FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D658AEAC1F3D8DB400C362FB /* aokoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aokoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D658AEB01F3D8DB400C362FB /* aokoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aokoTests.swift; sourceTree = "<group>"; };
+		D658AEB21F3D8DB400C362FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D658AEB71F3D8DB400C362FB /* aokoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aokoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D658AEBB1F3D8DB400C362FB /* aokoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aokoUITests.swift; sourceTree = "<group>"; };
+		D658AEBD1F3D8DB400C362FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D658AE981F3D8DB400C362FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEA91F3D8DB400C362FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEB41F3D8DB400C362FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D658AE921F3D8DB400C362FB = {
+			isa = PBXGroup;
+			children = (
+				D658AE9D1F3D8DB400C362FB /* aoko */,
+				D658AEAF1F3D8DB400C362FB /* aokoTests */,
+				D658AEBA1F3D8DB400C362FB /* aokoUITests */,
+				D658AE9C1F3D8DB400C362FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D658AE9C1F3D8DB400C362FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D658AE9B1F3D8DB400C362FB /* aoko.app */,
+				D658AEAC1F3D8DB400C362FB /* aokoTests.xctest */,
+				D658AEB71F3D8DB400C362FB /* aokoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D658AE9D1F3D8DB400C362FB /* aoko */ = {
+			isa = PBXGroup;
+			children = (
+				D658AE9E1F3D8DB400C362FB /* AppDelegate.swift */,
+				D658AEA01F3D8DB400C362FB /* ViewController.swift */,
+				D658AEA21F3D8DB400C362FB /* Assets.xcassets */,
+				D658AEA41F3D8DB400C362FB /* Main.storyboard */,
+				D658AEA71F3D8DB400C362FB /* Info.plist */,
+			);
+			path = aoko;
+			sourceTree = "<group>";
+		};
+		D658AEAF1F3D8DB400C362FB /* aokoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D658AEB01F3D8DB400C362FB /* aokoTests.swift */,
+				D658AEB21F3D8DB400C362FB /* Info.plist */,
+			);
+			path = aokoTests;
+			sourceTree = "<group>";
+		};
+		D658AEBA1F3D8DB400C362FB /* aokoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D658AEBB1F3D8DB400C362FB /* aokoUITests.swift */,
+				D658AEBD1F3D8DB400C362FB /* Info.plist */,
+			);
+			path = aokoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D658AE9A1F3D8DB400C362FB /* aoko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D658AEC01F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aoko" */;
+			buildPhases = (
+				D658AE971F3D8DB400C362FB /* Sources */,
+				D658AE981F3D8DB400C362FB /* Frameworks */,
+				D658AE991F3D8DB400C362FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aoko;
+			productName = aoko;
+			productReference = D658AE9B1F3D8DB400C362FB /* aoko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D658AEAB1F3D8DB400C362FB /* aokoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D658AEC31F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aokoTests" */;
+			buildPhases = (
+				D658AEA81F3D8DB400C362FB /* Sources */,
+				D658AEA91F3D8DB400C362FB /* Frameworks */,
+				D658AEAA1F3D8DB400C362FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D658AEAE1F3D8DB400C362FB /* PBXTargetDependency */,
+			);
+			name = aokoTests;
+			productName = aokoTests;
+			productReference = D658AEAC1F3D8DB400C362FB /* aokoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D658AEB61F3D8DB400C362FB /* aokoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D658AEC61F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aokoUITests" */;
+			buildPhases = (
+				D658AEB31F3D8DB400C362FB /* Sources */,
+				D658AEB41F3D8DB400C362FB /* Frameworks */,
+				D658AEB51F3D8DB400C362FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D658AEB91F3D8DB400C362FB /* PBXTargetDependency */,
+			);
+			name = aokoUITests;
+			productName = aokoUITests;
+			productReference = D658AEB71F3D8DB400C362FB /* aokoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D658AE931F3D8DB400C362FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = y.k;
+				TargetAttributes = {
+					D658AE9A1F3D8DB400C362FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D658AEAB1F3D8DB400C362FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D658AE9A1F3D8DB400C362FB;
+					};
+					D658AEB61F3D8DB400C362FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D658AE9A1F3D8DB400C362FB;
+					};
+				};
+			};
+			buildConfigurationList = D658AE961F3D8DB400C362FB /* Build configuration list for PBXProject "aoko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D658AE921F3D8DB400C362FB;
+			productRefGroup = D658AE9C1F3D8DB400C362FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D658AE9A1F3D8DB400C362FB /* aoko */,
+				D658AEAB1F3D8DB400C362FB /* aokoTests */,
+				D658AEB61F3D8DB400C362FB /* aokoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D658AE991F3D8DB400C362FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D658AEA31F3D8DB400C362FB /* Assets.xcassets in Resources */,
+				D658AEA61F3D8DB400C362FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEAA1F3D8DB400C362FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEB51F3D8DB400C362FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D658AE971F3D8DB400C362FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D658AEA11F3D8DB400C362FB /* ViewController.swift in Sources */,
+				D658AE9F1F3D8DB400C362FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEA81F3D8DB400C362FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D658AEB11F3D8DB400C362FB /* aokoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D658AEB31F3D8DB400C362FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D658AEBC1F3D8DB400C362FB /* aokoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D658AEAE1F3D8DB400C362FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D658AE9A1F3D8DB400C362FB /* aoko */;
+			targetProxy = D658AEAD1F3D8DB400C362FB /* PBXContainerItemProxy */;
+		};
+		D658AEB91F3D8DB400C362FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D658AE9A1F3D8DB400C362FB /* aoko */;
+			targetProxy = D658AEB81F3D8DB400C362FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D658AEA41F3D8DB400C362FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D658AEA51F3D8DB400C362FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D658AEBE1F3D8DB400C362FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D658AEBF1F3D8DB400C362FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D658AEC11F3D8DB400C362FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aoko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aoko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D658AEC21F3D8DB400C362FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aoko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aoko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D658AEC41F3D8DB400C362FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aokoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aokoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoko.app/Contents/MacOS/aoko";
+			};
+			name = Debug;
+		};
+		D658AEC51F3D8DB400C362FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aokoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aokoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoko.app/Contents/MacOS/aoko";
+			};
+			name = Release;
+		};
+		D658AEC71F3D8DB400C362FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aokoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aokoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = aoko;
+			};
+			name = Debug;
+		};
+		D658AEC81F3D8DB400C362FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aokoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y.k.aokoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = aoko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D658AE961F3D8DB400C362FB /* Build configuration list for PBXProject "aoko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D658AEBE1F3D8DB400C362FB /* Debug */,
+				D658AEBF1F3D8DB400C362FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D658AEC01F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aoko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D658AEC11F3D8DB400C362FB /* Debug */,
+				D658AEC21F3D8DB400C362FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D658AEC31F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aokoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D658AEC41F3D8DB400C362FB /* Debug */,
+				D658AEC51F3D8DB400C362FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D658AEC61F3D8DB400C362FB /* Build configuration list for PBXNativeTarget "aokoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D658AEC71F3D8DB400C362FB /* Debug */,
+				D658AEC81F3D8DB400C362FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D658AE931F3D8DB400C362FB /* Project object */;
+}
