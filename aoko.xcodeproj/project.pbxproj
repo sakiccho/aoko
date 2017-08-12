@@ -13,6 +13,9 @@
 		D658AEA61F3D8DB400C362FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D658AEA41F3D8DB400C362FB /* Main.storyboard */; };
 		D658AEB11F3D8DB400C362FB /* aokoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEB01F3D8DB400C362FB /* aokoTests.swift */; };
 		D658AEBC1F3D8DB400C362FB /* aokoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEBB1F3D8DB400C362FB /* aokoUITests.swift */; };
+		D658AECB1F3D8DF100C362FB /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658AEC91F3D8DF100C362FB /* WindowController.swift */; };
+		D658AECC1F3D8DF100C362FB /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D658AECA1F3D8DF100C362FB /* WindowController.xib */; };
+		D658AED11F3D948A00C362FB /* rss-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = D658AED01F3D948A00C362FB /* rss-symbol.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D658AEB71F3D8DB400C362FB /* aokoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aokoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D658AEBB1F3D8DB400C362FB /* aokoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aokoUITests.swift; sourceTree = "<group>"; };
 		D658AEBD1F3D8DB400C362FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D658AEC91F3D8DF100C362FB /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		D658AECA1F3D8DF100C362FB /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		D658AED01F3D948A00C362FB /* rss-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rss-symbol.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		D658AE9D1F3D8DB400C362FB /* aoko */ = {
 			isa = PBXGroup;
 			children = (
+				D658AECF1F3D903E00C362FB /* images */,
 				D658AE9E1F3D8DB400C362FB /* AppDelegate.swift */,
 				D658AEA01F3D8DB400C362FB /* ViewController.swift */,
 				D658AEA21F3D8DB400C362FB /* Assets.xcassets */,
 				D658AEA41F3D8DB400C362FB /* Main.storyboard */,
 				D658AEA71F3D8DB400C362FB /* Info.plist */,
+				D658AEC91F3D8DF100C362FB /* WindowController.swift */,
+				D658AECA1F3D8DF100C362FB /* WindowController.xib */,
 			);
 			path = aoko;
 			sourceTree = "<group>";
@@ -120,6 +129,14 @@
 				D658AEBD1F3D8DB400C362FB /* Info.plist */,
 			);
 			path = aokoUITests;
+			sourceTree = "<group>";
+		};
+		D658AECF1F3D903E00C362FB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D658AED01F3D948A00C362FB /* rss-symbol.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D658AED11F3D948A00C362FB /* rss-symbol.png in Resources */,
 				D658AEA31F3D8DB400C362FB /* Assets.xcassets in Resources */,
+				D658AECC1F3D8DF100C362FB /* WindowController.xib in Resources */,
 				D658AEA61F3D8DB400C362FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D658AEA11F3D8DB400C362FB /* ViewController.swift in Sources */,
+				D658AECB1F3D8DF100C362FB /* WindowController.swift in Sources */,
 				D658AE9F1F3D8DB400C362FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
